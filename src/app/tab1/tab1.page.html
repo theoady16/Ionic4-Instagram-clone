@@ -1,41 +1,138 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="dark">
+        <ion-icon slot="icon-only" src='../../assets/assets/camera.svg'>
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
     <ion-title>
-      Tab One
+      <img src="../../assets/assets/instagram-new-logo.png">
     </ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="dark">
+        <ion-icon slot="icon-only" src='../../assets/assets/send.svg'>
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
-      <img src="/assets/shapes.svg" alt="" />
-      <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
-        <ion-card-title>Welcome to Ionic</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
-      </ion-card-content>
-    </ion-card>
-    <ion-list lines="none">
-      <ion-list-header>
-        <ion-label>Resources</ion-label>
-      </ion-list-header>
-      <ion-item href="https://ionicframework.com/docs/">
-        <ion-icon slot="start" color="medium" name="book"></ion-icon>
-        <ion-label>Ionic Documentation</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/building/scaffolding">
-        <ion-icon slot="start" color="medium" name="build"></ion-icon>
-        <ion-label>Scaffold Out Your App</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/layout/structure">
-        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
-        <ion-label>Change Your App Layout</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/theming/basics">
-        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
-        <ion-label>Theme Your App</ion-label>
-      </ion-item>
-    </ion-list>
+  <div class="text-stories">
+    <p>Stories</p>
+    <p>See all</p>
+  </div>
+
+  <div class="stories">
+    <div class="story">
+      <div class="add_story">
+        <img src="../../assets/assets/12.jpg">
+        <ion-icon color="primary" name="add-circle">
+
+        </ion-icon>
+      </div>
+
+      <p style="color: #86888f;">Profil Anda</p>
+    </div>
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+    <div class="story">
+      <div class="img-box">
+        <img src="../../assets/assets/12.jpg">
+      </div>
+      <p>Story teman</p>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <ion-item no-padding lines="none">
+    <ion-avatar slot="start">
+      <img src="../../assets/assets/12.jpg">
+    </ion-avatar>
+    <ion-label>
+      Nama_user
+    </ion-label>
+    <ion-icon slot="end" name="more"></ion-icon>
+  </ion-item>
+  <img class="post_img" src="../../assets/assets/post_1.jpg">
+
+  <div class="flex-button">
+    <div>
+      <ion-icon name="heart"></ion-icon>
+      <ion-icon name="text"></ion-icon>
+      <ion-icon src='../../assets/assets/send.svg'></ion-icon>
+
+    </div>
+    <ion-icon name="bookmark"></ion-icon>
+  </div>
+
+  <p class="insta-text"> <b>2.020 Likes</b></p>
+  <p class="insta-text"> <b>Nama_user</b> <br> Caption-instagram</p>
+
+  <ion-item no-padding lines="none">
+    <ion-avatar slot="start">
+      <img src="../../assets/assets/12.jpg">
+    </ion-avatar>
+    <ion-label>
+      Nama_user
+    </ion-label>
+    <ion-icon slot="end" name="more"></ion-icon>
+  </ion-item>
+  <img class="post_img" src="../../assets/assets/post_1.jpg">
+
+  <div class="flex-button">
+    <div>
+      <ion-icon name="heart"></ion-icon>
+      <ion-icon name="text"></ion-icon>
+      <ion-icon name="send"></ion-icon>
+
+    </div>
+    <ion-icon name="bookmark"></ion-icon>
+  </div>
+
+  <p class="insta-text"> <b>2.020 Likes</b></p>
+  <p class="insta-text"> <b>Nama_user</b> Caption-instagram</p>
+
 </ion-content>
